@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row" style="height:20%"></div>
+        <div class="row" style="height:100px"></div>
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-5">
