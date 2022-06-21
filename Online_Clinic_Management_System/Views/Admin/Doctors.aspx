@@ -59,7 +59,7 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <h1 class="text-center">Doctos Details</h1>
+                        <h1 class="text-center">Doctors Details</h1>
                         <asp:GridView ID="DoctorsGV" class="table table-hover" runat="server"></asp:GridView>
                     </div>
                 </div>
