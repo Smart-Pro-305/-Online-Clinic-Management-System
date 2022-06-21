@@ -9,33 +9,44 @@
                 <h2>Doctors Detail</h2>
                 <form>
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Doctor Name :</label>
-                        <input type="email" class="form-control" id="DoctorNameTb" >
+                        <label for="DoctorNameTb" class="form-label">Doctor Name :</label>
+                        <input type="email" class="form-control" id="DoctorNameTb">
                     </div>
                     <div class="mb-3">
-                        <label for="DoctorPhoneTb" class="form-label">Doctor Phone :</label>
-                        <input type="email" class="form-control" id="DoctorPhoneTb" >
+                        <label for="DoctorPhoneTb" class="form-label">Phone Number :</label>
+                        <input placeholder="(___) ___-____" data-slots="_" type="tel" class="form-control" id="DoctorPhoneTb">
                     </div>
                     <div class="mb-3">
-                        <label for="DoctorPhoneTb" class="form-label">Doctor Experience :</label>
-                        <input type="email" class="form-control" id="DoctorExTb" >
+                        <label for="DocExpTb" class="form-label">Experience :</label>
+                        <input type="text" class="form-control" id="DocExpTb">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="SpecialisationTb" class="form-label">Specialisation :</label>
+                        <input type="text" class="form-control" id="SpecialisationTb">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address :</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <label for="PasswordTb" class="form-label">Password :</label>
+                        <input type="password" class="form-control" id="PasswordTb">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password :</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <label for="GengerCb" class="form-label">Genger :</label>
+                        <input type="text" class="form-control" id="GengerCb">
                     </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    <div class="mb-3">
+                        <label for="AddressTb" class="form-label">Address :</label>
+                        <input type="text" class="form-control" id="AddressTb">
                     </div>
+                    <div class="mb-3">
+                        <label for="DobTb" class="form-label">Date of Birth :</label>
+                        <input type="date" class="form-control" id="DobTb">
+                    </div>
+
+
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
+
             <div class="col-md-8">
                 <div class="row">
                     <div class="col">

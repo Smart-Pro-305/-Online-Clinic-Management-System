@@ -10,6 +10,8 @@
     <link href="../../Content/bootstrap-grid.css" rel="stylesheet" />
     <script src="../../Scripts/bootstrap.bundle.js"></script>
     <script src="../../Scripts/bootstrap.js"></script>
+    <script src="../../Scripts/jquery-3.6.0.js"></script>
+    <script src="../../JS/phoneMask.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 

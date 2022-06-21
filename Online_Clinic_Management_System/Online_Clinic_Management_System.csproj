@@ -66,6 +66,13 @@
   <ItemGroup>
     <Content Include="App_Data\App_Data.txt" />
     <Content Include="Assets\Assets.txt" />
+    <Content Include="Assets\Images\ambulance .jpg" />
+    <Content Include="Assets\Images\doctor.jpg" />
+    <Content Include="Assets\Images\doctor2.jpg" />
+    <Content Include="Assets\Images\hospital.jpg" />
+    <Content Include="Assets\Images\lab.jpg" />
+    <Content Include="Assets\Images\login.jpg" />
+    <Content Include="Assets\Images\microscope.jpg" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -84,6 +91,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Global.asax" />
     <Content Include="JS\JS.txt" />
+    <Content Include="JS\phoneMask.js" />
     <Content Include="Libs\Libs.txt" />
     <Content Include="Models\Models.txt" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -92,6 +100,11 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-3.6.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.6.0.js" />
+    <Content Include="Scripts\jquery-3.6.0.min.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.js" />
     <Content Include="Views\Admin\Doctors.aspx" />
     <Content Include="Views\Doctors\Doctors.txt" />
     <Content Include="Views\Guest\Guest.txt" />
@@ -144,6 +157,8 @@
     <Content Include="Scripts\bootstrap.esm.js.map" />
     <Content Include="Scripts\bootstrap.bundle.min.js.map" />
     <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.6.0.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -151,9 +166,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\Images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
