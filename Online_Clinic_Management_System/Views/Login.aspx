@@ -6,20 +6,24 @@
 <head runat="server">
     <title></title>
     <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../CSS/Login.css" rel="stylesheet" />
 
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row" style="height:100px"></div>
+        <div class="row" style="height: 200px"></div>
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-5">
                 <form id="form1" runat="server">
                     <div class="mb-3 form-group">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control input-lg" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                        <div class="textOnInput">
+                        <label for="exampleInputEmail1" class="form-label">Email Address</label>
+                            
+                            <input class="form-control" type="email" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                        </div>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3 textOnInput">
                         <label for="exampleInputPassword1" class="form-label">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" />
                     </div>
@@ -27,7 +31,9 @@
                         <input type="checkbox" class="form-check-input" id="exampleCheck1" />
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">login</button>
+                    <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    </div>
                 </form>
             </div>
             <div class="col-md-3"></div>
