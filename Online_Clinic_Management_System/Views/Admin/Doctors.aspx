@@ -14,7 +14,7 @@
                         </div>
                         <div class="mb-3" >
                             <label for="DoctorPhoneTb" class="form-label">Phone Number :</label>
-                            <input placeholder="(___) ___-____" data-slots="_" type="tel" class="form-control" id="DoctorPhoneTb">
+                            <input placeholder="(___) ___-____" data-slots="_" type="tel" class="form-control" id="DoctorPhoneTb" runat="server" onkeydown="javascript:backspacerDOWN(this,event);" onkeyup="javascript:backspacerUP(this,event);" />
                         </div>
                    
                         <div class="mb-3">

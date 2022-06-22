@@ -15,6 +15,15 @@ namespace Online_Clinic_Management_System.Views.Admin
     {
 
         /// <summary>
+        /// DoctorPhoneTb control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl DoctorPhoneTb;
+
+        /// <summary>
         /// DoctorsGV control.
         /// </summary>
         /// <remarks>

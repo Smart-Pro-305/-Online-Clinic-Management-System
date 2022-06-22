@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Online_Clinic_Management_System.Views.Admin.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="Online_Clinic_Management_System.Views.Admin.Login" %>
 
 <!DOCTYPE html>
 
