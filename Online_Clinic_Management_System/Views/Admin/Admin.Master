@@ -13,6 +13,7 @@
     <script src="../../Scripts/jquery-3.6.0.min.js"></script>
     <script src="../../Scripts/jquery-3.6.0.js"></script>
     <script src="../../JS/Telephone.js"></script>
+    <link href="../../CSS/Login.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 

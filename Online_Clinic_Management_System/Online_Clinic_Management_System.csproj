@@ -89,6 +89,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="CSS\Login.css" />
     <Content Include="Global.asax" />
     <Content Include="JS\phoneMark.js" />
     <Content Include="JS\JS.txt" />
@@ -107,7 +108,7 @@
     <Content Include="Scripts\jquery-3.6.0.slim.js" />
     <Content Include="Scripts\jquery-3.6.0.slim.min.js" />
     <Content Include="Views\Admin\Doctors.aspx" />
-    <Content Include="Views\login.aspx" />
+    <Content Include="Views\Login.aspx" />
     <Content Include="Views\Doctors\Doctors.txt" />
     <Content Include="Views\Guest\Guest.txt" />
     <Content Include="Views\Laboratorian\Laboratiorian.txt" />
@@ -133,12 +134,12 @@
     <Compile Include="Views\Admin\Doctors.aspx.designer.cs">
       <DependentUpon>Doctors.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Views\login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="Views\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Views\login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="Views\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

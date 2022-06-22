@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="Online_Clinic_Management_System.Views.Admin.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Online_Clinic_Management_System.Views.Admin.Login" %>
 
 <!DOCTYPE html>
 
@@ -15,9 +15,9 @@
             <div class="col-md-4"></div>
             <div class="col-md-5">
                 <form id="form1" runat="server">
-                    <div class="mb-3">
+                    <div class="mb-3 form-group">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                        <input type="email" class="form-control input-lg" id="exampleInputEmail1" aria-describedby="emailHelp" />
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Password</label>
