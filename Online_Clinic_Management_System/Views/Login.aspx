@@ -14,7 +14,8 @@
         <div class="row" style="height: 200px"></div>
         <div class="row">
             <div class="col-md-4"></div>
-            <div class="col-md-5">
+            <div class="col-md-5 form-group">
+                <h1 class="T">Heaven Care Clinic</h1>
                 <form id="form1" runat="server">
                     <div class="mb-3 form-group">
                         <div class="textOnInput">
@@ -28,8 +29,10 @@
                         <input type="password" class="form-control" id="exampleInputPassword1" />
                     </div>
                     <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                        <input type="radio" class="form-check-input" id="exampleCheck1" />
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
+
+                        
                     </div>
                     <div class="d-grid">
                     <button type="submit" class="btn btn-primary btn-block">Login</button>

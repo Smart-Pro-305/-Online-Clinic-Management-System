@@ -35,7 +35,10 @@ label {
 .form-control {
     box-shadow: none !important;
 }
-.form-label {
-    color: #00bf6f;
+.form-label{
+   color: #00bf6f;
 }
-
+.form-group {
+    background: white;
+    opacity:0.6;
+}
