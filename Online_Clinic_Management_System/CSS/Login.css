@@ -1,7 +1,8 @@
-﻿body{
-    background-image:url(../Assets/Images/Login1.jpg);
-    background-size:cover;
+﻿body {
+    background-image: url(../Assets/Images/Login1.jpg);
+    background-size: cover;
 }
+
 .textOnInput {
     position: relative;
 }
@@ -35,10 +36,7 @@ label {
 .form-control {
     box-shadow: none !important;
 }
-.form-label{
-   color: #00bf6f;
-}
-.form-group {
-    background: white;
-    opacity:0.6;
+
+.form-label {
+    color: #00bf6f;
 }

@@ -7,6 +7,7 @@
     <title></title>
     <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
     <link href="../CSS/Login.css" rel="stylesheet" />
+    <link href="../CSS/deneme.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -14,14 +15,14 @@
         <div class="row" style="height: 200px"></div>
         <div class="row">
             <div class="col-md-4"></div>
-            <div class="col-md-5 form-group">
+            <div class="col-md-4" id ="form-bg">
                 <h1 class="T">Heaven Care Clinic</h1>
                 <form id="form1" runat="server">
                     <div class="mb-3 form-group">
                         <div class="textOnInput">
-                        <label for="exampleInputEmail1" class="form-label">Email Address</label>
-                            
-                            <input class="form-control" type="email" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                            <label for="exampleInputEmail1" class="form-label">Email Address</label>
+
+                            <input class="form-control" type="email" id="exampleInputEmail1" aria-describedby="emailHelp" />
                         </div>
                     </div>
                     <div class="mb-3 textOnInput">
@@ -40,7 +41,7 @@
 
                 </form>
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-4"></div>
 
         </div>
     </div>

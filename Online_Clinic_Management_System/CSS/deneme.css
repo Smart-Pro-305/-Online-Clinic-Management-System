@@ -1,0 +1,7 @@
+﻿#form-bg {
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 25px;
+    background: white;
+    opacity: 0.8;
+}

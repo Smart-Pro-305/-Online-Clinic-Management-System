@@ -90,10 +90,9 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="CSS\deneme.css" />
     <Content Include="CSS\Login.css" />
     <Content Include="Global.asax" />
-    <Content Include="JS\CoinApi.js" />
-    <Content Include="JS\phoneMark.js" />
     <Content Include="JS\JS.txt" />
     <Content Include="JS\Telephone.js" />
     <Content Include="Libs\Libs.txt" />
